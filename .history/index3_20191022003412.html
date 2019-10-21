@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        function calc(){
+          val1=  document.getElementById("val1").value;
+          val2=document.getElementById("val2").value;
+          document.getElementById("result").innerHTML=(val1*val2);
+        }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="val1"> 
+    <input type="text" id="val2"> 
+    <p id="result"></p>
+
+    <button onClick="calc()">Calculate</button>
+</body>
+</html>

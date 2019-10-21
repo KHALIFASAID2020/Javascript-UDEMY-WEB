@@ -8,11 +8,6 @@
 </head>
 <body>
     <h1 id="result"></h1>
-    
-    <form action="">
-      <input type="text" id="t">
-    </form>
-    
     <button onclick="tanz()">Click ME</button>
     <script>
      function tanz(){
@@ -21,13 +16,14 @@
         var val2=  prompt("Enter Value 2");
         //var name =56;
         document.getElementById("result").innerHTML=
-      val1+' + '+val2+'= '+((val1*1)+(val2*1)); 
-      
+      val1+' + '+val2+'= '+(val1+val2); 
       }
        
         
       /*   document.write("5+4 =  "+ "hey"); */
-    
+     var name= prompt("what's your name");
+     document.write(name);
+     
     </script>
 </body>
 </html>
